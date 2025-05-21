@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.question-block {
+  margin-bottom: 30px;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.option {
+  display: block;
+  margin: 5px 0;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+.correct {
+  background-color: #d4edda;
+  border: 1px solid #28a745;
+}
+
+.incorrect {
+  background-color: #f8d7da;
+  border: 1px solid #dc3545;
+}
+
+.correct-text {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.incorrect-text {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.check-btn {
+  margin-top: 10px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.reset-btn {
+  margin-top: 10px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #f0ad4e;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.reset-btn:hover {
+  background-color: #ec971f;
+}
